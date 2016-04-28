@@ -4,11 +4,15 @@
 
 A high-productivity web framework for the [Go language](http://www.golang.org/).
 
+## To get the app
+
+    go get github.com/Blue0000/revel_app/app
+
 ### Start the web server:
 
-    revel run myapp
+    revel run github.com/Blue0000/revel_app
 
-   Run with <tt>--help</tt> for options.
+    Run with <tt>--help</tt> for options.
 
 ### Go to http://localhost:9000/ and you'll see:
 
@@ -18,7 +22,7 @@ A high-productivity web framework for the [Go language](http://www.golang.org/).
 
 The default directory structure of a generated Revel application:
 
-    myapp               App root
+    revel_app           App root
       app               App sources
         controllers     App controllers
           init.go       Interceptor registration
